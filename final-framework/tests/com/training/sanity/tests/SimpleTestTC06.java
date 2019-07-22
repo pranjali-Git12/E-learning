@@ -49,8 +49,8 @@ public class SimpleTestTC06 {
 	
 	@Test
 	public void loginPassTest() {
-		homepagePOMTC6.sendUserName("admin");
-		homepagePOMTC6.sendPassword("admin@123");
+		homepagePOMTC6.sendUserName("pranjali");
+		homepagePOMTC6.sendPassword("pranjali");
 		homepagePOMTC6.clickLoginBtn(); 
 		screenShot.captureScreenShot("Logindeatils");
 	}
